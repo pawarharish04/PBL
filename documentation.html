@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hand Gesture Recognition - Documentation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #4a90e2;
+      margin-top: 2rem;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    pre {
+      background-color: #e0e0e0;
+      padding: 1rem;
+      overflow-x: auto;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #4a90e2;
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hand Gesture Recognition Project</h1>
+    <p>Documentation</p>
+  </header>
+
+  <main>
+    <h2>📌 Project Overview</h2>
+    <p>This project detects and recognizes hand gestures using computer vision. It can be used for sign language translation, touchless UI control, and more.</p>
+
+    <h2>⚙️ Tech Stack</h2>
+    <ul>
+      <li>Python, Flask</li>
+      <li>OpenCV, MediaPipe</li>
+      <li>HTML, CSS, JavaScript</li>
+    </ul>
+
+    <h2>🚀 Installation & Setup</h2>
+    <p>Install dependencies:</p>
+    <pre><code>pip install -r requirements.txt</code></pre>
+    <p>Run the app:</p>
+    <pre><code>python app.py</code></pre>
+
+    <h2>👁️ Project Structure</h2>
+    <pre><code>/static
+/templates
+/dataset
+app.py
+requirements.txt
+README.md</code></pre>
+
+    <h2>🧠 Gesture Detection Logic</h2>
+    <p>The system uses MediaPipe to detect hand landmarks and maps them to predefined gestures using angle/distance logic or ML models.</p>
+
+    <h2>📊 UI Features</h2>
+    <ul>
+      <li>Real-time gesture feedback</li>
+      <li>User profile system</li>
+      <li>Gesture dataset tab for testing</li>
+    </ul>
+
+    <h2>🧪 Testing</h2>
+    <p>Model tested on X gestures with Y% accuracy. Performance may vary depending on lighting and camera quality.</p>
+
+    <h2>🔧 Customization</h2>
+    <p>To add a new gesture:</p>
+    <ul>
+      <li>Capture frames using webcam</li>
+      <li>Save data in <code>/dataset</code> folder</li>
+      <li>Train or map it in your detection logic</li>
+    </ul>
+
+    <h2>📜 License</h2>
+    <p>MIT License</p>
+
+    <h2>📬 Contact</h2>
+    <p>Created by Ken. GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+  </main>
+
+  <footer>
+    &copy; 2025 Hand Gesture Recognition | Built by Ken
+  </footer>
+
+</body>
+</html>
